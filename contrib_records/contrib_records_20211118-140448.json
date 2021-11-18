@@ -1,0 +1,406 @@
+[
+    {
+        "conceptdoi": "10.5281/zenodo.5711436",
+        "conceptrecid": "5711436",
+        "created": "2021-11-18T20:03:18.380096+00:00",
+        "doi": "10.5281/zenodo.5711437",
+        "files": [
+            {
+                "bucket": "418c5c36-2cac-4efd-85ee-dc0d82d0963d",
+                "checksum": "md5:20b65797a7198488a3bd2f01123ab8f4",
+                "key": "2021_KDU21_014_SorokunCo.pdf",
+                "links": {
+                    "self": "https://zenodo.org/api/files/418c5c36-2cac-4efd-85ee-dc0d82d0963d/2021_KDU21_014_SorokunCo.pdf"
+                },
+                "size": 2108584,
+                "type": "pdf"
+            }
+        ],
+        "id": 5711437,
+        "links": {
+            "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.5711437.svg",
+            "bucket": "https://zenodo.org/api/files/418c5c36-2cac-4efd-85ee-dc0d82d0963d",
+            "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.5711436.svg",
+            "conceptdoi": "https://doi.org/10.5281/zenodo.5711436",
+            "doi": "https://doi.org/10.5281/zenodo.5711437",
+            "html": "https://zenodo.org/record/5711437",
+            "latest": "https://zenodo.org/api/records/5711437",
+            "latest_html": "https://zenodo.org/record/5711437",
+            "self": "https://zenodo.org/api/records/5711437"
+        },
+        "metadata": {
+            "access_right": "open",
+            "access_right_category": "success",
+            "communities": [
+                {
+                    "id": "va_vovkcenter"
+                }
+            ],
+            "contributors": [
+                {
+                    "affiliation": "Institute of Archaeology, the NAS of Ukraine",
+                    "name": "Zalizniak, Leonid",
+                    "type": "Editor"
+                }
+            ],
+            "creators": [
+                {
+                    "affiliation": "Institute of Archaeology, the NAS of Ukraine",
+                    "name": "Sorokun, Andrii",
+                    "orcid": "0000-0002-8506-4817"
+                },
+                {
+                    "affiliation": "Taras Shevchenko National University of Kyiv",
+                    "name": "Shydlovskyi, Pavlo",
+                    "orcid": "0000-0001-6771-812X"
+                },
+                {
+                    "affiliation": "State Science Centre for the Protection of Cultural Heritage",
+                    "name": "Pereverziev, Serhii",
+                    "orcid": "0000-0002-8980-7489"
+                },
+                {
+                    "affiliation": "Institute of Archaeology, the NAS of Ukraine",
+                    "name": "Hotun, Igor",
+                    "orcid": "0000-0002-9285-5107"
+                }
+            ],
+            "description": "<p>During the excavations of the unique Kievan Rus and the Mongol-Lithuanian period settlement, which was opened&nbsp;by the Northern Expedition of the Institute of Archaeology of the NAS of Ukraine in 2007 and has been working on it&nbsp;annually, in addition to medieval materials, finds of prehistoric times have been recorded. Completion of the results of the&nbsp;first five years of excavations allows us summarize the collection of this category of artefacts.<br>\nThe settlement occupies an elevation in the swampy lower flow of the Vita / Siverka and Petyl&rsquo; rivers in the vast&nbsp;floodplain &nbsp;of &nbsp;the &nbsp;Dnieper &nbsp;to &nbsp;the &nbsp;north-east &nbsp;of &nbsp;the &nbsp;Krugle &nbsp;hillfort &nbsp;and &nbsp;to &nbsp;the &nbsp;east &nbsp;of &nbsp;the &nbsp;multi-layered settlement between Khodosivka and Lisnyky. During this time more than 1000 m 2 &nbsp;were opened on the site where Meso-Neolithic,&nbsp;Chalcolithic, Bronze Age, I st &nbsp;millennium AD finds also collected. The presence of a number of Stone Age vestiges nearby&nbsp;(in Vita Lytovska, Romankiv, Vita Poshtova, etc.) makes it possible to analyze the Neolithic materials obtained during the&nbsp;excavations of the settlement in the context of the peculiarities of the epoch in the region.&nbsp;The conducted researches are a significant addition to the archaeological map of the Neolithic Kyiv region, and the&nbsp;findings obtained during the subsequent works are the basis for further in-depth study of the prehistory of the microregion.</p>",
+            "doi": "10.5281/zenodo.5711437",
+            "imprint": {
+                "place": "Kyiv, Ukraine",
+                "publisher": "Institute of Archaeology, the NAS of Ukraine"
+            },
+            "journal": {
+                "pages": "197-215",
+                "title": "\u041a\u0430\u043c'\u044f\u043d\u0430 \u0434\u043e\u0431\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438",
+                "volume": "21"
+            },
+            "keywords": [
+                "flint inventory",
+                "Neolithic ceramics",
+                "ground housing",
+                "Kyiv-Cherkasy culture",
+                "Kukrek cultural tradition",
+                "prehistoric archaeology"
+            ],
+            "language": "ukr",
+            "license": {
+                "id": "CC-BY-4.0"
+            },
+            "publication_date": "2021-04-15",
+            "related_identifiers": [
+                {
+                    "identifier": "2519-2043",
+                    "relation": "isPartOf",
+                    "resource_type": "publication-article",
+                    "scheme": "issn"
+                },
+                {
+                    "identifier": "https://www.researchgate.net/publication/356217689_",
+                    "relation": "isIdenticalTo",
+                    "resource_type": "publication-article",
+                    "scheme": "url"
+                },
+                {
+                    "identifier": "https://www.academia.edu/61790200/",
+                    "relation": "isIdenticalTo",
+                    "resource_type": "publication-article",
+                    "scheme": "url"
+                },
+                {
+                    "identifier": "10.5281/zenodo.5711436",
+                    "relation": "isVersionOf",
+                    "scheme": "doi"
+                }
+            ],
+            "relations": {
+                "version": [
+                    {
+                        "count": 1,
+                        "index": 0,
+                        "is_last": true,
+                        "last_child": {
+                            "pid_type": "recid",
+                            "pid_value": "5711437"
+                        },
+                        "parent": {
+                            "pid_type": "recid",
+                            "pid_value": "5711436"
+                        }
+                    }
+                ]
+            },
+            "resource_type": {
+                "subtype": "article",
+                "title": "Journal article",
+                "type": "publication"
+            },
+            "title": "C\u0442\u043e\u044f\u043d\u043a\u0430 \u0425\u043e\u0434\u043e\u0441\u0456\u0432\u043a\u0430-\u0420\u043e\u0441\u043b\u0430\u0432\u0441\u044c\u043a\u0435 \u0443  \u043f\u0456\u0432\u0434\u0435\u043d\u043d\u0438\u0445 \u043f\u0435\u0440\u0435\u0434\u043c\u0456\u0441\u0442\u044f\u0445 \u041a\u0438\u0454\u0432\u0430 / Khodosivka-Roslavske site in the southern  suburbs of Kyiv"
+        },
+        "owners": [
+            42843
+        ],
+        "revision": 1,
+        "stats": {
+            "downloads": 0.0,
+            "unique_downloads": 0.0,
+            "unique_views": 0.0,
+            "version_downloads": 0.0,
+            "version_unique_downloads": 0.0,
+            "version_unique_views": 0.0,
+            "version_views": 0.0,
+            "version_volume": 0.0,
+            "views": 0.0,
+            "volume": 0.0
+        },
+        "updated": "2021-11-18T20:03:19.378475+00:00"
+    },
+    {
+        "conceptdoi": "10.5281/zenodo.5711222",
+        "conceptrecid": "5711222",
+        "created": "2021-11-18T18:27:40.940844+00:00",
+        "doi": "10.5281/zenodo.5711223",
+        "files": [
+            {
+                "bucket": "37fb0065-56b4-4f16-a3c2-b018f471cac5",
+                "checksum": "md5:a9e5bce8350c08634ee871e49c6e6f58",
+                "key": "GUIA SUBMARINA.pdf",
+                "links": {
+                    "self": "https://zenodo.org/api/files/37fb0065-56b4-4f16-a3c2-b018f471cac5/GUIA%20SUBMARINA.pdf"
+                },
+                "size": 135725852,
+                "type": "pdf"
+            }
+        ],
+        "id": 5711223,
+        "links": {
+            "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.5711223.svg",
+            "bucket": "https://zenodo.org/api/files/37fb0065-56b4-4f16-a3c2-b018f471cac5",
+            "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.5711222.svg",
+            "conceptdoi": "https://doi.org/10.5281/zenodo.5711222",
+            "doi": "https://doi.org/10.5281/zenodo.5711223",
+            "html": "https://zenodo.org/record/5711223",
+            "latest": "https://zenodo.org/api/records/5711223",
+            "latest_html": "https://zenodo.org/record/5711223",
+            "self": "https://zenodo.org/api/records/5711223"
+        },
+        "metadata": {
+            "access_right": "open",
+            "access_right_category": "success",
+            "contributors": [
+                {
+                    "name": "Cabrito, Andrea",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Nancete, Agust\u00ed",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Peralta, Bernat",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Nabau, Elena",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Salvador, Elisabet",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Cahner, Enric",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Gurrea, Guillem",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Flo, Jaume",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Fern\u00e1ndez, Jaume Juan",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "de Gea, Josep",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Lopez Rodr\u00edguez, Josep",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Pujol Casado, J\u00falia",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Barbosa, Luisa",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "\u00c1lvarez, Maria",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Peralta, Marc",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Aparicio, Nuria",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Mart\u00ed, Patr\u00edcia",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Vives, \u00c8lia",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "\u00c0lvarez, Olivia",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Deu, Oriol",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Ju\u00e1rez, Pablo",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Llavall, Pol",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Servitje, Ramon",
+                    "type": "DataCollector"
+                },
+                {
+                    "name": "Junc\u00e0, Silvia",
+                    "type": "DataCollector"
+                }
+            ],
+            "creators": [
+                {
+                    "affiliation": "ICM-CSIC",
+                    "name": "Salvador, Xavi"
+                },
+                {
+                    "affiliation": "An\u00e8l\u00b7lides",
+                    "name": "S\u00e1nchez, Laura"
+                },
+                {
+                    "affiliation": "An\u00e8l\u00b7lides",
+                    "name": "Domingo, Oriol"
+                },
+                {
+                    "affiliation": "An\u00e8l\u00b7lides",
+                    "name": "Comaposada, Andrea"
+                },
+                {
+                    "affiliation": "ICM-CSIC",
+                    "name": "Soacha, Karen",
+                    "orcid": "0000-0002-4287-1256"
+                },
+                {
+                    "affiliation": "ICM-CSIC",
+                    "name": "Piera, Jaume",
+                    "orcid": "0000-0001-5818-9836"
+                }
+            ],
+            "description": "<p>The book is a participatory guide of the biodiversity that the volunteers have observed in the beaches of the Metropolitan Area of Barcelona.</p>\n\n<p>All the pictures have been taken from the volunteers (see contributors list)</p>",
+            "doi": "10.5281/zenodo.5711223",
+            "grants": [
+                {
+                    "acronym": "COS4CLOUD",
+                    "code": "863463",
+                    "funder": {
+                        "acronyms": [],
+                        "doi": "10.13039/501100000780",
+                        "links": {
+                            "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+                        },
+                        "name": "European Commission"
+                    },
+                    "links": {
+                        "self": "https://zenodo.org/api/grants/10.13039/501100000780::863463"
+                    },
+                    "program": "Horizon 2020 Framework Programme - Research and Innovation action",
+                    "title": "Co-designed Citizen Observatories Services for the EOS-Cloud"
+                }
+            ],
+            "imprint": {
+                "isbn": "978-84-267-3322-1",
+                "place": "Barcelona, Spain",
+                "publisher": "Marcombo"
+            },
+            "keywords": [
+                "Citizen Science",
+                "Participatory Science",
+                "Urban Beaches",
+                "Ocean Cities",
+                "Biodiversiy",
+                "Marine Biology",
+                "Urban Ecology"
+            ],
+            "language": "cat",
+            "license": {
+                "id": "CC-BY-4.0"
+            },
+            "publication_date": "2021-11-18",
+            "related_identifiers": [
+                {
+                    "identifier": "10.5281/zenodo.5711222",
+                    "relation": "isVersionOf",
+                    "scheme": "doi"
+                }
+            ],
+            "relations": {
+                "version": [
+                    {
+                        "count": 1,
+                        "index": 0,
+                        "is_last": true,
+                        "last_child": {
+                            "pid_type": "recid",
+                            "pid_value": "5711223"
+                        },
+                        "parent": {
+                            "pid_type": "recid",
+                            "pid_value": "5711222"
+                        }
+                    }
+                ]
+            },
+            "resource_type": {
+                "subtype": "book",
+                "title": "Book",
+                "type": "publication"
+            },
+            "title": "Guia Participativa Marina del Barcelon\u00e8s"
+        },
+        "owners": [
+            80858
+        ],
+        "revision": 2,
+        "stats": {
+            "downloads": 0.0,
+            "unique_downloads": 0.0,
+            "unique_views": 0.0,
+            "version_downloads": 0.0,
+            "version_unique_downloads": 0.0,
+            "version_unique_views": 0.0,
+            "version_views": 0.0,
+            "version_volume": 0.0,
+            "views": 0.0,
+            "volume": 0.0
+        },
+        "updated": "2021-11-18T18:29:09.458341+00:00"
+    }
+]
