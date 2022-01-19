@@ -1,0 +1,1575 @@
+{
+    "aggregations": {
+        "access_right": {
+            "buckets": [
+                {
+                    "doc_count": 37047,
+                    "key": "open"
+                },
+                {
+                    "doc_count": 283,
+                    "key": "closed"
+                },
+                {
+                    "doc_count": 272,
+                    "key": "restricted"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "embargoed"
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+        },
+        "file_type": {
+            "buckets": [
+                {
+                    "doc_count": 24481,
+                    "key": "pdf"
+                },
+                {
+                    "doc_count": 4821,
+                    "key": "xml"
+                },
+                {
+                    "doc_count": 4547,
+                    "key": "jpg"
+                },
+                {
+                    "doc_count": 3188,
+                    "key": "zip"
+                },
+                {
+                    "doc_count": 1614,
+                    "key": "odt"
+                },
+                {
+                    "doc_count": 878,
+                    "key": "csv"
+                },
+                {
+                    "doc_count": 706,
+                    "key": "xlsx"
+                },
+                {
+                    "doc_count": 637,
+                    "key": "txt"
+                },
+                {
+                    "doc_count": 409,
+                    "key": "mp4"
+                },
+                {
+                    "doc_count": 406,
+                    "key": "docx"
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 4308
+        },
+        "keywords": {
+            "buckets": [
+                {
+                    "doc_count": 3691,
+                    "key": "biodiversity"
+                },
+                {
+                    "doc_count": 3670,
+                    "key": "taxonomy"
+                },
+                {
+                    "doc_count": 3658,
+                    "key": "insects"
+                },
+                {
+                    "doc_count": 3512,
+                    "key": "Hymenoptera"
+                },
+                {
+                    "doc_count": 3511,
+                    "key": "Animalia"
+                },
+                {
+                    "doc_count": 3511,
+                    "key": "Arthropoda"
+                },
+                {
+                    "doc_count": 3511,
+                    "key": "Hexapoda"
+                },
+                {
+                    "doc_count": 3507,
+                    "key": "epigraphy"
+                },
+                {
+                    "doc_count": 3505,
+                    "key": "Sicily"
+                },
+                {
+                    "doc_count": 2495,
+                    "key": "Vespoidea"
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 115981
+        },
+        "type": {
+            "buckets": [
+                {
+                    "doc_count": 23046,
+                    "key": "publication",
+                    "subtype": {
+                        "buckets": [
+                            {
+                                "doc_count": 12015,
+                                "key": "article"
+                            },
+                            {
+                                "doc_count": 3871,
+                                "key": "other"
+                            },
+                            {
+                                "doc_count": 3162,
+                                "key": "conferencepaper"
+                            },
+                            {
+                                "doc_count": 1059,
+                                "key": "deliverable"
+                            },
+                            {
+                                "doc_count": 937,
+                                "key": "book"
+                            },
+                            {
+                                "doc_count": 879,
+                                "key": "report"
+                            },
+                            {
+                                "doc_count": 512,
+                                "key": "section"
+                            },
+                            {
+                                "doc_count": 311,
+                                "key": "workingpaper"
+                            },
+                            {
+                                "doc_count": 70,
+                                "key": "preprint"
+                            },
+                            {
+                                "doc_count": 63,
+                                "key": "thesis"
+                            },
+                            {
+                                "doc_count": 61,
+                                "key": "technicalnote"
+                            },
+                            {
+                                "doc_count": 31,
+                                "key": "milestone"
+                            },
+                            {
+                                "doc_count": 27,
+                                "key": "datamanagementplan"
+                            },
+                            {
+                                "doc_count": 19,
+                                "key": "softwaredocumentation"
+                            },
+                            {
+                                "doc_count": 18,
+                                "key": "proposal"
+                            },
+                            {
+                                "doc_count": 7,
+                                "key": "patent"
+                            },
+                            {
+                                "doc_count": 4,
+                                "key": "annotationcollection"
+                            }
+                        ],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 5480,
+                    "key": "dataset",
+                    "subtype": {
+                        "buckets": [],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 4945,
+                    "key": "image",
+                    "subtype": {
+                        "buckets": [
+                            {
+                                "doc_count": 3339,
+                                "key": "drawing"
+                            },
+                            {
+                                "doc_count": 1044,
+                                "key": "photo"
+                            },
+                            {
+                                "doc_count": 395,
+                                "key": "other"
+                            },
+                            {
+                                "doc_count": 152,
+                                "key": "figure"
+                            },
+                            {
+                                "doc_count": 10,
+                                "key": "diagram"
+                            },
+                            {
+                                "doc_count": 5,
+                                "key": "plot"
+                            }
+                        ],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 1336,
+                    "key": "software",
+                    "subtype": {
+                        "buckets": [],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 1013,
+                    "key": "other",
+                    "subtype": {
+                        "buckets": [],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 662,
+                    "key": "presentation",
+                    "subtype": {
+                        "buckets": [],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 536,
+                    "key": "poster",
+                    "subtype": {
+                        "buckets": [],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 326,
+                    "key": "video",
+                    "subtype": {
+                        "buckets": [],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 243,
+                    "key": "lesson",
+                    "subtype": {
+                        "buckets": [],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                },
+                {
+                    "doc_count": 78,
+                    "key": "physicalobject",
+                    "subtype": {
+                        "buckets": [],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    }
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+        }
+    },
+    "hits": {
+        "hits": [
+            {
+                "conceptdoi": "10.5281/zenodo.1098894",
+                "conceptrecid": "1098894",
+                "created": "2017-12-11T09:52:44.525371+00:00",
+                "doi": "10.5281/zenodo.1098895",
+                "files": [
+                    {
+                        "bucket": "dead3cad-1d4a-4299-885d-a21548f7aaf2",
+                        "checksum": "md5:4804887f65237487aef087aaf5de147c",
+                        "key": "05 - 3D Forest Information - FI.mov",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/dead3cad-1d4a-4299-885d-a21548f7aaf2/05%20-%203D%20Forest%20Information%20-%20FI.mov"
+                        },
+                        "size": 200942190,
+                        "type": "mov"
+                    }
+                ],
+                "id": 1098895,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1098895.svg",
+                    "bucket": "https://zenodo.org/api/files/dead3cad-1d4a-4299-885d-a21548f7aaf2",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1098894.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.1098894",
+                    "doi": "https://doi.org/10.5281/zenodo.1098895",
+                    "html": "https://zenodo.org/record/1098895",
+                    "latest": "https://zenodo.org/api/records/1098895",
+                    "latest_html": "https://zenodo.org/record/1098895",
+                    "self": "https://zenodo.org/api/records/1098895"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "contributors": [
+                        {
+                            "affiliation": "Tampere University of Technology",
+                            "name": "Raumonen, Pasi",
+                            "orcid": "0000-0001-5471-0970",
+                            "type": "DataCurator"
+                        },
+                        {
+                            "affiliation": "Centre for Sustainable Forestry and Climate Change, Forest Research",
+                            "name": "Casella, Eric",
+                            "orcid": "0000-0002-5429-7159",
+                            "type": "DataCollector"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "affiliation": "Tampere University of Technology",
+                            "name": "\u00c5kerblom, Markku",
+                            "orcid": "0000-0002-6512-232X"
+                        }
+                    ],
+                    "description": "<p>Animaatiossa n&auml;ytet&auml;&auml;n, kuinka mets&auml;palsta voidaan rekonstruoida automaattisesti maanp&auml;&auml;lisest&auml; laserkeilausdatasta. Yksitt&auml;iset puut tunnistetaan ja mallinnetaan sylintereill&auml;. Sylinterimalleista voidaan laskea puiden ja mets&auml;n kannalta hy&ouml;dyllist&auml; tietoa.</p>\n\n<p>Animaatiossa k&auml;ytet&auml;&auml;n aitoa laserkeilausdataa, jonka on ker&auml;nnyt Eric Casella, joka ty&ouml;skentelee Forest Research -instituutissa Isossa-Britanniassa (http://www.forestry.gov.uk/forestresearch). Laserkeilaus suoritettiin huhtikuussa 2012. QTVR-formaatin visualisoinnit pistepilvist&auml; ovat saatavilla ResearchGate-palvelussa (http://www.researchgate.net/publication/267327584_Terrestrial_laser_scanner_and_forest_science__Point-cloud_raw_data_visualized).</p>\n\n<p>Tarkempia tietoja rekonstruktiomenetelm&auml;st&auml; l&ouml;ytyy ryhm&auml;n kotisivuilta sek&auml; esimerkiksi Open Access -julkaisusta&nbsp; &quot;Fast Automatic Precision Tree Models from Terrestrial Laser Scanner Data&quot; (http://www.mdpi.com/2072-4292/5/2/491).</p>\n\n<p>T&auml;m&auml;n animaation tuotti Tampereen teknillisen yliopiston Matematiikan laitoksen Inversio-ongelmien tutkimusryhm&auml; (http://math.tut.fi/inversegroup).</p>\n\n<p>Animaatio toteutettiin Blender-sovelluksella (http://www.blender.org).</p>\n\n<p>Musiikki:<br>\nRollin at 5 Kevin MacLeod (http://incompetech.com)<br>\nLicensed under Creative Commons: By Attribution 3.0<br>\nhttp://creativecommons.org/licenses/b...</p>",
+                    "doi": "10.5281/zenodo.1098895",
+                    "keywords": [
+                        "inverse problem",
+                        "tree reconstruction",
+                        "applied mathematics",
+                        "terrestrial laser scanning",
+                        "laserskannaus",
+                        "mets\u00e4inventaario",
+                        "forest inventory"
+                    ],
+                    "language": "fin",
+                    "license": {
+                        "id": "CC-BY-NC-4.0"
+                    },
+                    "publication_date": "2014-11-07",
+                    "related_identifiers": [
+                        {
+                            "identifier": "https://youtu.be/eS36t7ZdnBY",
+                            "relation": "isIdenticalTo",
+                            "scheme": "url"
+                        },
+                        {
+                            "identifier": "10.5281/zenodo.1098894",
+                            "relation": "isPartOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1098895"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1098894"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "title": "Video/Audio",
+                        "type": "video"
+                    },
+                    "title": "3D mets\u00e4informaatio"
+                },
+                "owners": [
+                    32041
+                ],
+                "revision": 2,
+                "stats": {},
+                "updated": "2017-12-11T09:52:44.790827+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.1098257",
+                "conceptrecid": "1098257",
+                "created": "2017-12-08T15:49:06.316013+00:00",
+                "doi": "10.5281/zenodo.1098258",
+                "id": 1098258,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1098258.svg",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1098257.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.1098257",
+                    "doi": "https://doi.org/10.5281/zenodo.1098258",
+                    "html": "https://zenodo.org/record/1098258",
+                    "latest": "https://zenodo.org/api/records/1098258",
+                    "latest_html": "https://zenodo.org/record/1098258",
+                    "self": "https://zenodo.org/api/records/1098258"
+                },
+                "metadata": {
+                    "access_right": "closed",
+                    "access_right_category": "danger",
+                    "contributors": [
+                        {
+                            "name": "Zolt\u00e1n K\u00e1m\u00e1n",
+                            "type": "DataCurator"
+                        },
+                        {
+                            "name": "Attila M\u00e1rton",
+                            "type": "DataCollector"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "affiliation": "AFINET",
+                            "name": "Attila Gludov\u00e1tz"
+                        },
+                        {
+                            "affiliation": "AFINET",
+                            "name": "L\u00e1szl\u00f3 Bacs\u00e1rdi"
+                        }
+                    ],
+                    "description": "<p>The purpose of the applied IT solutions during the operation of factories is to support the manufacturing workflow and the strategic decision making of company managers. We reviewed the industrial techniques in nowadays and the newest trends (&quot;Industrial Internet&quot;, &quot;Industry 4.0&quot;) which are based on the idea of &quot;Internet of things&quot;. In our research, we have analyzed the economical background, the multinational and local platforms of Industry 4.0 and the new IT techniques, which support Industry 4.0. In the second part of our paper, we have investigated two case studies, which are related to the wood industrial companies. We have summarized the company&#39;s problems, environments, and given possible solutions for their problems</p>",
+                    "doi": "10.5281/zenodo.1098258",
+                    "imprint": {
+                        "isbn": "ISSN333",
+                        "place": "Bp.",
+                        "publisher": "Sztaki"
+                    },
+                    "journal": {
+                        "pages": "1page",
+                        "title": "1tit",
+                        "volume": "1vol"
+                    },
+                    "keywords": [
+                        "manufacturing",
+                        "energy management system",
+                        "integrated solution"
+                    ],
+                    "language": "eng",
+                    "meeting": {
+                        "acronym": "confacronym",
+                        "dates": "confdates",
+                        "place": "confplace",
+                        "session": "confsess1",
+                        "session_part": "confpart2",
+                        "title": "conftitle",
+                        "url": "http://google.com"
+                    },
+                    "part_of": {
+                        "pages": "Part page",
+                        "title": "Part title"
+                    },
+                    "publication_date": "2017-11-13",
+                    "references": [
+                        "hivatkoz\u00e1s",
+                        "hiv 2"
+                    ],
+                    "related_identifiers": [
+                        {
+                            "identifier": "10.5281/zenodo.1098257",
+                            "relation": "isPartOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1098258"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1098257"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "article",
+                        "title": "Journal article",
+                        "type": "publication"
+                    },
+                    "thesis": {
+                        "supervisors": [
+                            {
+                                "affiliation": "AFINET",
+                                "name": "Laszlo Bacsardi"
+                            },
+                            {
+                                "affiliation": "AFINET",
+                                "name": "Laszlo Jereb"
+                            }
+                        ],
+                        "university": "SoE"
+                    },
+                    "title": "Industry 4.0 projects' background and our experiences at the\nwood industrial manufactories"
+                },
+                "owners": [
+                    35722
+                ],
+                "revision": 3,
+                "stats": {},
+                "updated": "2017-12-08T15:57:48.645020+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.1098255",
+                "conceptrecid": "1098255",
+                "created": "2017-12-08T15:43:35.957153+00:00",
+                "doi": "10.5281/zenodo.1098256",
+                "id": 1098256,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1098256.svg",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1098255.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.1098255",
+                    "doi": "https://doi.org/10.5281/zenodo.1098256",
+                    "html": "https://zenodo.org/record/1098256",
+                    "latest": "https://zenodo.org/api/records/1098256",
+                    "latest_html": "https://zenodo.org/record/1098256",
+                    "self": "https://zenodo.org/api/records/1098256"
+                },
+                "metadata": {
+                    "access_right": "closed",
+                    "access_right_category": "danger",
+                    "contributors": [
+                        {
+                            "name": "Zolt\u00e1n K\u00e1m\u00e1n",
+                            "type": "DataCurator"
+                        },
+                        {
+                            "name": "Attila M\u00e1rton",
+                            "type": "DataCollector"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "affiliation": "AFINET",
+                            "name": "Attila Gludov\u00e1tz"
+                        },
+                        {
+                            "affiliation": "AFINET",
+                            "name": "L\u00e1szl\u00f3 Bacs\u00e1rdi"
+                        }
+                    ],
+                    "description": "<p>The purpose of the applied IT solutions during the operation of factories is to support the manufacturing workflow and the strategic decision making of company managers. We reviewed the industrial techniques in nowadays and the newest trends (&quot;Industrial Internet&quot;, &quot;Industry 4.0&quot;) which are based on the idea of &quot;Internet of things&quot;. In our research, we have analyzed the economical background, the multinational and local platforms of Industry 4.0 and the new IT techniques, which support Industry 4.0. In the second part of our paper, we have investigated two case studies, which are related to the wood industrial companies. We have summarized the company&#39;s problems, environments, and given possible solutions for their problems</p>",
+                    "doi": "10.5281/zenodo.1098256",
+                    "imprint": {
+                        "isbn": "ISSN333",
+                        "place": "Bp.",
+                        "publisher": "Sztaki"
+                    },
+                    "journal": {
+                        "pages": "1page",
+                        "title": "1tit",
+                        "volume": "1vol"
+                    },
+                    "keywords": [
+                        "manufacturing",
+                        "energy management system",
+                        "integrated solution"
+                    ],
+                    "language": "eng",
+                    "meeting": {
+                        "acronym": "confacronym",
+                        "dates": "confdates",
+                        "place": "confplace",
+                        "session": "confsess1",
+                        "session_part": "confpart2",
+                        "title": "conftitle",
+                        "url": "http://google.com"
+                    },
+                    "part_of": {
+                        "pages": "Part page",
+                        "title": "Part title"
+                    },
+                    "publication_date": "2017-11-13",
+                    "references": [
+                        "hivatkoz\u00e1s",
+                        "hiv 2"
+                    ],
+                    "related_identifiers": [
+                        {
+                            "identifier": "10.5281/zenodo.1098255",
+                            "relation": "isPartOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1098256"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1098255"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "article",
+                        "title": "Journal article",
+                        "type": "publication"
+                    },
+                    "thesis": {
+                        "supervisors": [
+                            {
+                                "affiliation": "AFINET",
+                                "name": "Laszlo Bacsardi"
+                            },
+                            {
+                                "affiliation": "AFINET",
+                                "name": "Laszlo Jereb"
+                            }
+                        ],
+                        "university": "SoE"
+                    },
+                    "title": "Industry 4.0 projects' background and our experiences at the\nwood industrial manufactories"
+                },
+                "owners": [
+                    35722
+                ],
+                "revision": 4,
+                "stats": {},
+                "updated": "2017-12-08T16:07:11.043301+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.1285941",
+                "conceptrecid": "1285941",
+                "created": "2018-06-08T18:11:04.286128+00:00",
+                "doi": "10.5281/zenodo.1285942",
+                "files": [
+                    {
+                        "bucket": "5c3b7b6f-0ed0-4219-a59b-7a6e5fffaf8f",
+                        "checksum": "md5:6999a37410dc79c07209be238f797d87",
+                        "key": "Decision Model figure.emf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/5c3b7b6f-0ed0-4219-a59b-7a6e5fffaf8f/Decision%20Model%20figure.emf"
+                        },
+                        "size": 32172,
+                        "type": "emf"
+                    }
+                ],
+                "id": 1285942,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1285942.svg",
+                    "bucket": "https://zenodo.org/api/files/5c3b7b6f-0ed0-4219-a59b-7a6e5fffaf8f",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1285941.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.1285941",
+                    "doi": "https://doi.org/10.5281/zenodo.1285942",
+                    "html": "https://zenodo.org/record/1285942",
+                    "latest": "https://zenodo.org/api/records/1285942",
+                    "latest_html": "https://zenodo.org/record/1285942",
+                    "self": "https://zenodo.org/api/records/1285942"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "contributors": [
+                        {
+                            "affiliation": "Oregon State University",
+                            "name": "Nordica MacCarty",
+                            "type": "ContactPerson"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "affiliation": "Oregon State University",
+                            "name": "Mohammad H. Pakravan"
+                        }
+                    ],
+                    "description": "<p>DECISION MAKING THEORIES IN BOTH HEALTH RELATED BEHAVIORS AND ENVIRONMENTAL BEHAVIORS</p>",
+                    "doi": "10.5281/zenodo.1285942",
+                    "keywords": [
+                        "Decision-making models; Theory of planned behavior"
+                    ],
+                    "language": "eng",
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "meeting": {
+                        "acronym": "ASME IDETC",
+                        "dates": "August 26-29 2018",
+                        "place": "Quebec City, Quebec, Canada",
+                        "title": "ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+                        "url": "https://www.asme.org/events/idetccie"
+                    },
+                    "publication_date": "2018-06-08",
+                    "related_identifiers": [
+                        {
+                            "identifier": "10.5281/zenodo.1285941",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1285942"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1285941"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "figure",
+                        "title": "Figure",
+                        "type": "image"
+                    },
+                    "title": "DECISION MAKING THEORIES IN BOTH HEALTH RELATED BEHAVIORS AND ENVIRONMENTAL BEHAVIORS"
+                },
+                "owners": [
+                    47674
+                ],
+                "revision": 7,
+                "stats": {
+                    "downloads": 4.0,
+                    "unique_downloads": 4.0,
+                    "unique_views": 12.0,
+                    "version_downloads": 4.0,
+                    "version_unique_downloads": 4.0,
+                    "version_unique_views": 12.0,
+                    "version_views": 14.0,
+                    "version_volume": 128688.0,
+                    "views": 14.0,
+                    "volume": 128688.0
+                },
+                "updated": "2018-06-09T22:40:16.615139+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.1195659",
+                "conceptrecid": "1195659",
+                "created": "2018-03-11T11:43:38.252229+00:00",
+                "doi": "10.5281/zenodo.1195660",
+                "files": [
+                    {
+                        "bucket": "1a6f10a8-f736-46a6-872b-abefe948f5e1",
+                        "checksum": "md5:8e962b7c2981d30fb79b5a3700674a31",
+                        "key": "HAL 311 - 325.pdf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/1a6f10a8-f736-46a6-872b-abefe948f5e1/HAL%20311%20-%20325.pdf"
+                        },
+                        "size": 495721,
+                        "type": "pdf"
+                    }
+                ],
+                "id": 1195660,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1195660.svg",
+                    "bucket": "https://zenodo.org/api/files/1a6f10a8-f736-46a6-872b-abefe948f5e1",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1195659.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.1195659",
+                    "doi": "https://doi.org/10.5281/zenodo.1195660",
+                    "html": "https://zenodo.org/record/1195660",
+                    "latest": "https://zenodo.org/api/records/1195660",
+                    "latest_html": "https://zenodo.org/record/1195660",
+                    "self": "https://zenodo.org/api/records/1195660"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "contributors": [
+                        {
+                            "affiliation": "Poltekkes Kemenkes Kupang",
+                            "name": "OLGA MARIANA DUKABAIN",
+                            "type": "Researcher"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "affiliation": "Poltekkes Kemenkes Kupang",
+                            "name": "OLGA MARIANA DUKABAIN",
+                            "orcid": "0000-0002-6203-7699"
+                        }
+                    ],
+                    "description": "<p>Fatigue is a common occur on labor. All types of work will result in fatigue of working. Fatigue while working will degrade performance and increase the error rate of work. Increasing of the error in work will provide possibility of work accident in an industry that may impact on workers&#39; disability even the most fatal is death. Factor of shift work, workload, physical environment such as temperature, humidity, lighting and noise can lead to fatigue in workers. This study aimed to find out the fatigue rate differentials shift work in morning, afternoon, and evening on Labor of Stevedoring in Tenau Kupang Port.</p>\n\n<p>This type of research was survey observational with Cross sectional approach, and the number of samples is 89 respondents consisting of 37 people in the morning shift, 24 people in the aternoon shift and 28 people in night shift. Sample were taken with purposive sampling. Collection data were done by interviewing respondent, measuring factors of physical environment (temperature, humidity), measurement of workload before and after work. Then research data were analyzed univariat and bivariat with statistical tests product moment correlation and test the difference by using one way anova and kruskal-wallis.</p>\n\n<p>The results of this studi an average level of fatigue after working was 450,91 ms (medium), in the morning shift consisting of 468,04 ms (medium), the afternoon shift consisting of 449,47 ms (medium). Analysis result of workload, temperature, humidity is known that workload have a significant relationship with fatigue by analysis product moment (P=0,001,CI=95 %). The test results one way anova obtained that there is significant differences in temperature, humidity, between work shift in morning, noon and night (P=0,000), there is significant differences in level of fatigue before and after work (P=0,001), there is significant differences in fatigue between work shift in morning, noon and night (P=0,013).</p>\n\n<p>Concluded that there is a meaningful relation between work load with fatigue, temperatue and humidity with fatigue and there are difference in levels of fatigue between work shift in morning, noon and night in Tenau Kupang Port.</p>",
+                    "doi": "10.5281/zenodo.1195660",
+                    "journal": {
+                        "issue": "1",
+                        "pages": "311-325",
+                        "title": "JURNAL INFO KESEHATAN",
+                        "volume": "11"
+                    },
+                    "keywords": [
+                        "fatigue of working, shift work, work load, temperature, humidity"
+                    ],
+                    "language": "ind",
+                    "license": {
+                        "id": "CC-BY-SA-4.0"
+                    },
+                    "publication_date": "2013-06-01",
+                    "related_identifiers": [
+                        {
+                            "identifier": "http://jurnal.poltekeskupang.ac.id/index.php/infokes/article/view/1/23",
+                            "relation": "isDocumentedBy",
+                            "scheme": "url"
+                        },
+                        {
+                            "identifier": "10.5281/zenodo.1195659",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1195660"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "1195659"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "article",
+                        "title": "Journal article",
+                        "type": "publication"
+                    },
+                    "title": "THE DIFFERENCE OF FATIGUE LEVEL AMONG MORNING, AFTERNOON AND NIGHT SHIFT WORK ON WORKER OF STEVEDORING IN TENAU KUPANG PORT"
+                },
+                "owners": [
+                    43275
+                ],
+                "revision": 8,
+                "stats": {
+                    "downloads": 7.0,
+                    "unique_downloads": 7.0,
+                    "unique_views": 6.0,
+                    "version_downloads": 7.0,
+                    "version_unique_downloads": 7.0,
+                    "version_unique_views": 6.0,
+                    "version_views": 6.0,
+                    "version_volume": 3470047.0,
+                    "views": 6.0,
+                    "volume": 3470047.0
+                },
+                "updated": "2020-01-20T14:45:22.584228+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.850968",
+                "conceptrecid": "850968",
+                "created": "2017-08-30T09:35:09.448253+00:00",
+                "doi": "10.5281/zenodo.850969",
+                "files": [
+                    {
+                        "bucket": "f45cb62e-34aa-4f73-8a77-269d3ebeade9",
+                        "checksum": "md5:7305d839162e2213ebfcf4fafd9a39e3",
+                        "key": "smc_2014_259.pdf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/f45cb62e-34aa-4f73-8a77-269d3ebeade9/smc_2014_259.pdf"
+                        },
+                        "size": 582584,
+                        "type": "pdf"
+                    }
+                ],
+                "id": 850969,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.850969.svg",
+                    "bucket": "https://zenodo.org/api/files/f45cb62e-34aa-4f73-8a77-269d3ebeade9",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.850968.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.850968",
+                    "doi": "https://doi.org/10.5281/zenodo.850969",
+                    "html": "https://zenodo.org/record/850969",
+                    "latest": "https://zenodo.org/api/records/850969",
+                    "latest_html": "https://zenodo.org/record/850969",
+                    "self": "https://zenodo.org/api/records/850969"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "communities": [
+                        {
+                            "id": "smc"
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "name": "Anastasia Georgaki",
+                            "type": "Editor"
+                        },
+                        {
+                            "name": "Georgios Kouroupetroglou",
+                            "type": "Editor"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "name": "Kristian Nymoen"
+                        },
+                        {
+                            "name": "Arjun Chandra"
+                        },
+                        {
+                            "name": "Kyrre Glette"
+                        },
+                        {
+                            "name": "Jim Torresen"
+                        },
+                        {
+                            "name": "Alexander Refsum Jensenius"
+                        },
+                        {
+                            "name": "Arve Voldsund"
+                        }
+                    ],
+                    "description": "(Abstract to follow)",
+                    "doi": "10.5281/zenodo.850969",
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "meeting": {
+                        "acronym": "SMC/ICMC2014",
+                        "dates": "14-20 September",
+                        "place": "Athens, Greece",
+                        "title": "11th Sound and Music Computing Conference and 40th International Computer Music Conference",
+                        "url": "http://speech.di.uoa.gr/ICMC-SMC-2014/index.php"
+                    },
+                    "publication_date": "2014-09-14",
+                    "related_identifiers": [
+                        {
+                            "identifier": "2518-3672",
+                            "relation": "isPartOf",
+                            "scheme": "issn"
+                        },
+                        {
+                            "identifier": "978-0-9845274-3-4",
+                            "relation": "isPartOf",
+                            "scheme": "isbn"
+                        },
+                        {
+                            "identifier": "10.5281/zenodo.850968",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "850969"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "850968"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "conferencepaper",
+                        "title": "Conference paper",
+                        "type": "publication"
+                    },
+                    "title": "PheroMusic: Navigating a Flexible Space of Active Music Experiences"
+                },
+                "owners": [
+                    34988
+                ],
+                "revision": 5,
+                "stats": {
+                    "downloads": 9.0,
+                    "unique_downloads": 9.0,
+                    "unique_views": 15.0,
+                    "version_downloads": 9.0,
+                    "version_unique_downloads": 9.0,
+                    "version_unique_views": 15.0,
+                    "version_views": 23.0,
+                    "version_volume": 5243256.0,
+                    "views": 23.0,
+                    "volume": 5243256.0
+                },
+                "updated": "2020-01-20T15:27:18.264692+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.850794",
+                "conceptrecid": "850794",
+                "created": "2017-08-30T09:36:42.869732+00:00",
+                "doi": "10.5281/zenodo.850795",
+                "files": [
+                    {
+                        "bucket": "b1bd9be0-6711-4a01-bbf8-fc6258580d32",
+                        "checksum": "md5:3ba3748f6b0bc598ce73c54091d0d616",
+                        "key": "smc_2014_176.pdf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/b1bd9be0-6711-4a01-bbf8-fc6258580d32/smc_2014_176.pdf"
+                        },
+                        "size": 711007,
+                        "type": "pdf"
+                    }
+                ],
+                "id": 850795,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.850795.svg",
+                    "bucket": "https://zenodo.org/api/files/b1bd9be0-6711-4a01-bbf8-fc6258580d32",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.850794.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.850794",
+                    "doi": "https://doi.org/10.5281/zenodo.850795",
+                    "html": "https://zenodo.org/record/850795",
+                    "latest": "https://zenodo.org/api/records/850795",
+                    "latest_html": "https://zenodo.org/record/850795",
+                    "self": "https://zenodo.org/api/records/850795"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "communities": [
+                        {
+                            "id": "smc"
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "name": "Anastasia Georgaki",
+                            "type": "Editor"
+                        },
+                        {
+                            "name": "Georgios Kouroupetroglou",
+                            "type": "Editor"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "name": "Xiao Hu"
+                        },
+                        {
+                            "name": "Yi-Hsuan Yang"
+                        }
+                    ],
+                    "description": "(Abstract to follow)",
+                    "doi": "10.5281/zenodo.850795",
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "meeting": {
+                        "acronym": "SMC/ICMC2014",
+                        "dates": "14-20 September",
+                        "place": "Athens, Greece",
+                        "title": "11th Sound and Music Computing Conference and 40th International Computer Music Conference",
+                        "url": "http://speech.di.uoa.gr/ICMC-SMC-2014/index.php"
+                    },
+                    "publication_date": "2014-09-14",
+                    "related_identifiers": [
+                        {
+                            "identifier": "2518-3672",
+                            "relation": "isPartOf",
+                            "scheme": "issn"
+                        },
+                        {
+                            "identifier": "978-0-9845274-3-4",
+                            "relation": "isPartOf",
+                            "scheme": "isbn"
+                        },
+                        {
+                            "identifier": "10.5281/zenodo.850794",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "850795"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "850794"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "conferencepaper",
+                        "title": "Conference paper",
+                        "type": "publication"
+                    },
+                    "title": "A Study on Cross-cultural and Cross-dataset Generalizability of Music Mood Regression Models"
+                },
+                "owners": [
+                    34988
+                ],
+                "revision": 6,
+                "stats": {
+                    "downloads": 10.0,
+                    "unique_downloads": 10.0,
+                    "unique_views": 12.0,
+                    "version_downloads": 10.0,
+                    "version_unique_downloads": 10.0,
+                    "version_unique_views": 12.0,
+                    "version_views": 12.0,
+                    "version_volume": 7110070.0,
+                    "views": 12.0,
+                    "volume": 7110070.0
+                },
+                "updated": "2020-01-20T15:01:48.857303+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.851180",
+                "conceptrecid": "851180",
+                "created": "2017-08-30T09:33:13.107107+00:00",
+                "doi": "10.5281/zenodo.851181",
+                "files": [
+                    {
+                        "bucket": "bf7bc4cb-ffea-4f8c-880e-0d93e3cafbb0",
+                        "checksum": "md5:1145442e1d2a8a67f2c882bed09e193e",
+                        "key": "smc_2016_008.pdf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/bf7bc4cb-ffea-4f8c-880e-0d93e3cafbb0/smc_2016_008.pdf"
+                        },
+                        "size": 1301288,
+                        "type": "pdf"
+                    }
+                ],
+                "id": 851181,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.851181.svg",
+                    "bucket": "https://zenodo.org/api/files/bf7bc4cb-ffea-4f8c-880e-0d93e3cafbb0",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.851180.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.851180",
+                    "doi": "https://doi.org/10.5281/zenodo.851181",
+                    "html": "https://zenodo.org/record/851181",
+                    "latest": "https://zenodo.org/api/records/851181",
+                    "latest_html": "https://zenodo.org/record/851181",
+                    "self": "https://zenodo.org/api/records/851181"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "communities": [
+                        {
+                            "id": "smc"
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "name": "Rolf Gro\u00dfmann",
+                            "type": "Editor"
+                        },
+                        {
+                            "name": "Georg Hajdu",
+                            "type": "Editor"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "name": "Stefano Baldan"
+                        },
+                        {
+                            "name": "Stefano Delle Monache"
+                        },
+                        {
+                            "name": "Davide Rocchesso"
+                        },
+                        {
+                            "name": "H\u00e9l\u00e8ne Lachambre"
+                        }
+                    ],
+                    "description": "(Abstract to follow)",
+                    "doi": "10.5281/zenodo.851181",
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "meeting": {
+                        "acronym": "SMC2016",
+                        "dates": "31 August-3 September",
+                        "place": "Hamburg, Germany",
+                        "title": "13th Sound and Music Computing Conference",
+                        "url": "http://smcnetwork.org/resources/smc2016"
+                    },
+                    "publication_date": "2016-08-31",
+                    "related_identifiers": [
+                        {
+                            "identifier": "2518-3672",
+                            "relation": "isPartOf",
+                            "scheme": "issn"
+                        },
+                        {
+                            "identifier": "978-3-00-053700-4",
+                            "relation": "isPartOf",
+                            "scheme": "isbn"
+                        },
+                        {
+                            "identifier": "10.5281/zenodo.851180",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "851181"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "851180"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "conferencepaper",
+                        "title": "Conference paper",
+                        "type": "publication"
+                    },
+                    "title": "Sketching Sonic Interactions by Imitation-driven Sound Synthesis"
+                },
+                "owners": [
+                    34988
+                ],
+                "revision": 4,
+                "stats": {
+                    "downloads": 8.0,
+                    "unique_downloads": 7.0,
+                    "unique_views": 11.0,
+                    "version_downloads": 8.0,
+                    "version_unique_downloads": 7.0,
+                    "version_unique_views": 11.0,
+                    "version_views": 12.0,
+                    "version_volume": 10410304.0,
+                    "views": 12.0,
+                    "volume": 10410304.0
+                },
+                "updated": "2020-01-20T12:06:55.547173+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.850994",
+                "conceptrecid": "850994",
+                "created": "2017-08-30T09:34:54.674030+00:00",
+                "doi": "10.5281/zenodo.850995",
+                "files": [
+                    {
+                        "bucket": "2640b829-741f-4943-9511-cd6ea2a06d33",
+                        "checksum": "md5:761a2ff803177812b0b7d6ca60eb3421",
+                        "key": "smc_2014_272.pdf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/2640b829-741f-4943-9511-cd6ea2a06d33/smc_2014_272.pdf"
+                        },
+                        "size": 776150,
+                        "type": "pdf"
+                    }
+                ],
+                "id": 850995,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.850995.svg",
+                    "bucket": "https://zenodo.org/api/files/2640b829-741f-4943-9511-cd6ea2a06d33",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.850994.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.850994",
+                    "doi": "https://doi.org/10.5281/zenodo.850995",
+                    "html": "https://zenodo.org/record/850995",
+                    "latest": "https://zenodo.org/api/records/850995",
+                    "latest_html": "https://zenodo.org/record/850995",
+                    "self": "https://zenodo.org/api/records/850995"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "communities": [
+                        {
+                            "id": "smc"
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "name": "Anastasia Georgaki",
+                            "type": "Editor"
+                        },
+                        {
+                            "name": "Georgios Kouroupetroglou",
+                            "type": "Editor"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "name": "Trond Lossius"
+                        },
+                        {
+                            "name": "Nathan Wolek"
+                        },
+                        {
+                            "name": "Theo de la Hogue"
+                        },
+                        {
+                            "name": "Pascal Baltazar"
+                        }
+                    ],
+                    "description": "(Abstract to follow)",
+                    "doi": "10.5281/zenodo.850995",
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "meeting": {
+                        "acronym": "SMC/ICMC2014",
+                        "dates": "14-20 September",
+                        "place": "Athens, Greece",
+                        "title": "11th Sound and Music Computing Conference and 40th International Computer Music Conference",
+                        "url": "http://speech.di.uoa.gr/ICMC-SMC-2014/index.php"
+                    },
+                    "publication_date": "2014-09-14",
+                    "related_identifiers": [
+                        {
+                            "identifier": "2518-3672",
+                            "relation": "isPartOf",
+                            "scheme": "issn"
+                        },
+                        {
+                            "identifier": "978-0-9845274-3-4",
+                            "relation": "isPartOf",
+                            "scheme": "isbn"
+                        },
+                        {
+                            "identifier": "10.5281/zenodo.850994",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "850995"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "850994"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "conferencepaper",
+                        "title": "Conference paper",
+                        "type": "publication"
+                    },
+                    "title": "Demo: Using Jamama's MVC Features to Design an Audio Effect Interface"
+                },
+                "owners": [
+                    34988
+                ],
+                "revision": 4,
+                "stats": {
+                    "downloads": 9.0,
+                    "unique_downloads": 9.0,
+                    "unique_views": 11.0,
+                    "version_downloads": 9.0,
+                    "version_unique_downloads": 9.0,
+                    "version_unique_views": 11.0,
+                    "version_views": 12.0,
+                    "version_volume": 6985350.0,
+                    "views": 12.0,
+                    "volume": 6985350.0
+                },
+                "updated": "2020-01-20T15:26:43.394978+00:00"
+            },
+            {
+                "conceptdoi": "10.5281/zenodo.4105953",
+                "conceptrecid": "4105953",
+                "created": "2020-10-19T07:30:52.407885+00:00",
+                "doi": "10.5281/zenodo.4105954",
+                "files": [
+                    {
+                        "bucket": "2c3861bd-c1af-4d01-894a-92b3cbc8f6e3",
+                        "checksum": "md5:cd69dc2862d91ae62a9df6d6c904cad5",
+                        "key": "18_Zagorac_tenor20.pdf",
+                        "links": {
+                            "self": "https://zenodo.org/api/files/2c3861bd-c1af-4d01-894a-92b3cbc8f6e3/18_Zagorac_tenor20.pdf"
+                        },
+                        "size": 1967311,
+                        "type": "pdf"
+                    }
+                ],
+                "id": 4105954,
+                "links": {
+                    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.4105954.svg",
+                    "bucket": "https://zenodo.org/api/files/2c3861bd-c1af-4d01-894a-92b3cbc8f6e3",
+                    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.4105953.svg",
+                    "conceptdoi": "https://doi.org/10.5281/zenodo.4105953",
+                    "doi": "https://doi.org/10.5281/zenodo.4105954",
+                    "html": "https://zenodo.org/record/4105954",
+                    "latest": "https://zenodo.org/api/records/4105954",
+                    "latest_html": "https://zenodo.org/record/4105954",
+                    "self": "https://zenodo.org/api/records/4105954"
+                },
+                "metadata": {
+                    "access_right": "open",
+                    "access_right_category": "success",
+                    "communities": [
+                        {
+                            "id": "tenor"
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "name": "Rama, Gottfried",
+                            "type": "Editor"
+                        },
+                        {
+                            "name": "Georg, Hajdu",
+                            "type": "Editor"
+                        },
+                        {
+                            "name": "Jacob, Sello",
+                            "type": "Editor"
+                        },
+                        {
+                            "name": "Alessandro, Anatrini",
+                            "type": "Editor"
+                        },
+                        {
+                            "name": "John, MacCallum",
+                            "type": "Editor"
+                        }
+                    ],
+                    "creators": [
+                        {
+                            "name": "Slavko Zagorac"
+                        },
+                        {
+                            "name": "Michael Zbyszynski"
+                        }
+                    ],
+                    "description": "ZScore is a networked notation system for mixed ensemble composition and performance. This paper describes recent system developments towards a platform for comprovised music making. The long-term project objective is to provide an inclusive, democratised music-making environment by utilising technology that enables distributed decision making, dynamic notation processing and visualisation. It is proposed that all music is the outcome of a decision-making process that can be represented on the spectrum between immutable static and real-time dynamic decision making. Networking technology can act as an enabler for moving the dial on this decision-making spectrum in a required direction. Furthermore, a definition of a networked notational perspective is outlined, covering the dynamic aspects of distributed notation for heterogeneous clients. Several strategies for dealing with dynamic notation visualisation and control are presented, such as the dynamic performance parameter processing and embedded scripting. Finally, this paper presents the results from recent user trials and plans for future developments.",
+                    "doi": "10.5281/zenodo.4105954",
+                    "imprint": {
+                        "isbn": "978-3-00-066930-9",
+                        "publisher": "Hamburg University for Music and Theater"
+                    },
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    },
+                    "meeting": {
+                        "acronym": "TENOR 2020",
+                        "dates": "",
+                        "place": "Hamburg, Germany",
+                        "title": "International Conference on Technologies for Music Notation and Representation"
+                    },
+                    "part_of": {
+                        "pages": "133-140",
+                        "title": "Proceedings of the International Conference on Technologies for Music Notation and Representation"
+                    },
+                    "publication_date": "2020-10-19",
+                    "related_identifiers": [
+                        {
+                            "identifier": "10.5281/zenodo.4105953",
+                            "relation": "isVersionOf",
+                            "scheme": "doi"
+                        }
+                    ],
+                    "relations": {
+                        "version": [
+                            {
+                                "count": 1,
+                                "index": 0,
+                                "is_last": true,
+                                "last_child": {
+                                    "pid_type": "recid",
+                                    "pid_value": "4105954"
+                                },
+                                "parent": {
+                                    "pid_type": "recid",
+                                    "pid_value": "4105953"
+                                }
+                            }
+                        ]
+                    },
+                    "resource_type": {
+                        "subtype": "conferencepaper",
+                        "title": "Conference paper",
+                        "type": "publication"
+                    },
+                    "title": "Networked Comprovisation Stratagies with ZScore"
+                },
+                "owners": [
+                    36324
+                ],
+                "revision": 2,
+                "stats": {
+                    "downloads": 1.0,
+                    "unique_downloads": 1.0,
+                    "unique_views": 1.0,
+                    "version_downloads": 1.0,
+                    "version_unique_downloads": 1.0,
+                    "version_unique_views": 1.0,
+                    "version_views": 1.0,
+                    "version_volume": 1967311.0,
+                    "views": 1.0,
+                    "volume": 1967311.0
+                },
+                "updated": "2020-10-19T12:26:56.616965+00:00"
+            }
+        ],
+        "total": 37665
+    },
+    "links": {
+        "next": "https://zenodo.org/api/records/?sort=bestmatch&q=_exists_%3Acontributors&all_versions=false&page=2&size=10",
+        "self": "https://zenodo.org/api/records/?sort=bestmatch&q=_exists_%3Acontributors&all_versions=false&page=1&size=10"
+    }
+}
