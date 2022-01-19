@@ -2,6 +2,11 @@
 #!/usr/bin/env python
 
 import requests
+from collections import Counter
+import json
+import time
+import os.path
+import csv
 
 ACCESS_TOKEN = 'Your key here'
 
@@ -12,8 +17,6 @@ response = requests.get('https://zenodo.org/api/records',
                         params={'q': '_exists_:contributors', 'size': size, 'page': 1, 'status': 'published', 'sort': 'bestmatch', 'all_versions': 'false', 'access_token': ACCESS_TOKEN})
 
 records = response.json()
-
-from collections import Counter
 
 # Print ID, resource type, and contributor role(s) for each record
 results = []
@@ -47,11 +50,6 @@ for i in range(len(records['hits']['hits'])):
         contributors = 'none'
 
     results.append([record_id,title,resource_type,contributors])
-
-import json
-import time
-import os.path
-import csv
 
 # Get the current time
 timestr = time.strftime("%Y%m%d-%H%M%S")
